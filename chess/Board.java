@@ -52,7 +52,7 @@ public class Board {
         }
     }
 
-    public Block[][] getBlocks() {
-        return blocks;
+    public Block getBlock(int x, int y) {
+        return blocks[x][y];
     }
 }
