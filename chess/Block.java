@@ -15,8 +15,8 @@ public class Block {
     }
 
     public String assignLabel(int x, int y) {
-        String[] xLabels = { "1", "2", "3", "4", "5", "6", "7", "8" };
-        String[] yLabels = { "A", "B", "C", "D", "E", "F", "G", "H" };
+        String[] xLabels = { "A", "B", "C", "D", "E", "F", "G", "H" };
+        String[] yLabels = { "1", "2", "3", "4", "5", "6", "7", "8" };
         return String.valueOf(xLabels[x]) + String.valueOf(yLabels[y]);
     }
 
